@@ -14,7 +14,7 @@
     1) 그래프
     <img src=".\img\graph.png" width="300">
 
-    2) 테이블?
+    2) 테이블
     <img src=".\img\table1.png" width="300">
 
     3) 경유지(K)=1
