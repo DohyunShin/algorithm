@@ -40,11 +40,11 @@ def cb_dp(n, k):
 # d: 데이터 리스트, t: 데이터 리스트의 타겟 인덱스, s: 선택된 데이터 인덱스 저장 리스트, p: 리스트 s의 저장 위치(pos)
 def cb_print(d, n, k, t, s, p):
     if k == 0:
-        t = []
+        tmp = []
         # 출력 시 pos는 리스트 s의 출력 개수가 된다.
         for i in range(0, p):
-            t.append(d[s[i]])
-        print(t)
+            tmp.append(d[s[i]])
+        print(tmp)
         return 1
     # 목표 만큼 선택하지 못하고 종료할 경우(모두 선택한 경우는 위에서 걸러진다.)
     elif t == n:
